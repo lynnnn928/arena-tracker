@@ -1,0 +1,19 @@
+{
+  "name": "game-strategy-optimizer",
+  "version": "1.0.0",
+  "bin": {
+    "arena": "./scripts/arena.js"
+  },
+  "scripts": {
+    "start": "node scripts/server.js",
+    "sync": "node scripts/sync.js",
+    "dashboard": "node scripts/build_dashboard.js",
+    "refresh": "node scripts/sync.js && node scripts/build_dashboard.js",
+    "publish": "node scripts/publish.js",
+    "status": "node scripts/arena.js status",
+    "compare": "node scripts/arena.js compare"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0"
+  }
+}

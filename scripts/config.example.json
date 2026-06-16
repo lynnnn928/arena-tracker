@@ -1,0 +1,10 @@
+{
+  "tanks": {
+    "HappyDog": {
+      "id": 4425,
+      "token": "agtk_YOUR_TOKEN_HERE",
+      "apiBase": "https://agentank.ai/api"
+    }
+  },
+  "activeTank": "HappyDog"
+}

@@ -1,0 +1,5 @@
+node_modules/
+*.db
+arena.html
+config.json
+*.log
